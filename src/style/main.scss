@@ -1,0 +1,74 @@
+@import './variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family;
+  color: #333;
+  background-color: #f5f7fa;
+}
+
+#app {
+  height: 100vh;
+}
+
+// 工具类
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// 页面容器
+.page-container {
+  padding: 20px;
+}
+
+.page-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+}
+
+// 卡片样式
+.card {
+  border-radius: 8px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+// 表格样式
+.el-table {
+  .warning-row {
+    background-color: #fdf6ec;
+  }
+
+  .success-row {
+    background-color: #f0f9eb;
+  }
+}
+ul,
+li {
+  list-style: none; /* 移除默认的小点 */
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>应用启动器</title>
+    <script>
+      // 检测是否以 file:// 协议打开
+      if (window.location.protocol === 'file:') {
+        // 如果是本地文件，重定向到 index.html
+        window.location.href = './index.html'
+      } else {
+        // 如果是网络环境，显示提示
+        document.body.innerHTML = `
+        <div style="text-align:center;padding:50px;font-family:Arial;">
+          <h1>请将此文件保存到本地后双击打开</h1>
+          <p>将整个 dist 文件夹下载到本地，然后双击 launcher.html 文件</p>
+        </div>
+      `
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
