@@ -1,0 +1,1 @@
+System.register([],(function(e,t){"use strict";return{execute:function(){var e=document.createElement("style");e.textContent=".el-overlay{background-color:var(--el-overlay-color-lighter);bottom:0;height:100%;left:0;overflow:auto;position:fixed;right:0;top:0;z-index:2000}.el-overlay .el-overlay-root{height:0}\n/*$vite$:1*/",document.head.appendChild(e)}}}));

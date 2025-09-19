@@ -1,1 +1,0 @@
-import{S as o,d as t}from"./index-DEQFzW9F.js";const l=o("user",()=>{const e=t(""),r=t({});function u(s){e.value=s}function a(s){r.value=s}function n(){localStorage.removeItem("pinia-user"),e.value="",r.value={}}return{user_id:e,newUser:u,newUserDetail:a,user_detail:r,clearPersisted:n}},{persist:{paths:["user_id"]}});export{l as u};
